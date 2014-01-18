@@ -1,0 +1,18 @@
+<div class="container">
+
+<% @movie.each do |moviez|  %>
+  	<div class="row">
+
+
+  		<div class="col-lg-6">
+				<p class="resultlinks"><a href=<%="details/#{moviez["imdbID"]}" %> > <%= "#{moviez["Title"]}" %></a> (<%= moviez["Year"] %>)</p>
+			</div>
+
+			<div class="col-lg-2">
+				<p>(<%= moviez["Year"] %>)</p>
+			</div>
+
+  	</div>  
+<% end %>
+
+</div>

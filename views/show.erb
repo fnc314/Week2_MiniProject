@@ -1,0 +1,8 @@
+<% @movie.each do |moviez|  %>
+  	<div>
+  		<ul>
+  			<li>TITLE: <a href=<%= "poster/#{moviez['imdbID']}" %> > <%= "#{moviez["Title"]}" %> </a></li>
+  			<li>RELEASE YEAR: <%= moviez["Year"] %> </li>
+  		</ul>
+  	</div>  
+<% end %>

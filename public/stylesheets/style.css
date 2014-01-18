@@ -1,0 +1,22 @@
+.poster {
+	border: double;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.sectionheader {
+	font-color: #0000FF;
+	font-weight: 50px;
+	font-family: times;
+	font-size: 95px;
+}
+
+.title {
+	font-family: 'Tangerine', cursive;
+}
+
+.resultlinks {
+	font-family: 'Fondamento', cursive;
+}

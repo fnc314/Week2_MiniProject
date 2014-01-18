@@ -1,0 +1,22 @@
+<% @movie.each do |x|  %>
+  	<div>
+  		Species: <%= x[:Title] %>
+  		<br>
+  		Description: 
+  		<p>
+  			<%= x[:Director] %>
+  		</p>
+  	</div>
+  
+  <% end %>
+
+  <ul>
+	<li> <%= @movie["Title"] %> </li>
+	<li> <%= @movie["Year"] %> </li>
+	<li> <%= @movie["Released"] %> </li>
+</ul>
+
+# html_str = "<html><head><title>Movie Poster</title></head><body><h1>Movie Poster</h1>\n"
+  # html_str += "<h3>#{id["Title"]}, #{id["Year"]}</h3>"
+  # html_str += "<object data=#{id["Poster"]}><img src='http://speckycdn.sdm.netdna-cdn.com/wp-content/uploads/2010/03/four-oh-four_25.jpg'></img></object>"
+  # html_str += '<br /><a href="/">New Search</a></body></html>'
