@@ -1,27 +1,22 @@
 .poster {
 	border: double;
-	border-color: white;
+	border-color: black;
+	min-height: 80%;
 }
 
 .sectionheader {
-	font-color: #0000FF;
+	color: #0000FF;
 	font-weight: 50px;
-	font-family: times;
-	font-size: 95px;
-}
-
-.title {
 	font-family: 'Tangerine', cursive;
-}
-
-.plot {
-	color: white;
+	font-size: 95px;
 }
 
 .resultlinks {
 	font-family: 'Fondamento', cursive;
 	font-size: 50px;
-	font
+	text-align: center;
+	font-weight: bold;
+	color: #0000FF;
 }
 
 .results {
@@ -31,6 +26,9 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: black;
+/*	opacity: 0.5;*/
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .entrysite {
@@ -39,6 +37,6 @@
 }
 
 .inputbox {
-	position: absolute;
-	top: 50%;
+	position: relative;
+	top: ;
 }
