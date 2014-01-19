@@ -1,18 +1,19 @@
 .poster {
-	border: double;
+	border: double 5px;
 	border-color: black;
 	min-height: auto;
 }
 
 .postercolheight {
-	height: auto;
+	height: 100%;
 }
 
 .sectionheader {
 	color: #0000FF;
 	font-weight: 50px;
-	font-family: 'Tangerine', cursive;
-	font-size: 95px;
+	font-family: 'Astloch', cursive;
+	font-weight: bold;
+	font-size: 70px;
 }
 
 .resultlinks {
@@ -41,5 +42,10 @@
 
 .inputbox {
 	position: relative;
-	top: ;
+	left: 35%;
+}
+
+.inputcol {
+	position: relative;
+	top: 50%;
 }
