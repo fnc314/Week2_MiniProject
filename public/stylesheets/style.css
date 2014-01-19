@@ -1,7 +1,11 @@
 .poster {
 	border: double;
 	border-color: black;
-	min-height: 80%;
+	min-height: auto;
+}
+
+.postercolheight {
+	height: auto;
 }
 
 .sectionheader {
@@ -26,7 +30,6 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: black;
-/*	opacity: 0.5;*/
 	min-width: 100%;
 	min-height: 100%;
 }
