@@ -11,8 +11,14 @@ end
 post '/result' do
 	search_str = params[:movie]
   request = Typhoeus.get("www.omdbapi.com", :params => {:s => search_str})
-  @movie = JSON.parse(request.body)["Search"].sort_by { |x| x["Year"]}.reverse
-  erb :results
+  @movie = JSON.parse(request.body)["Search"]
+  if @movie.nil?
+    return "NO SEARCH RESULTS"
+  else
+    @movie = @movie.sort_by { |x| x["Year"]}.reverse
+    erb :results
+  end
+
 end
 
 get '/details/:imdb' do |imdb_id|
