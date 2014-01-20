@@ -1,6 +1,6 @@
 <div class="container results">
 
-	<div class="row">
+	<div class="row front">
 
 		<table class="table table-hover-rows">
 
@@ -8,9 +8,9 @@
 			
 				<% @movie.each do |moviez|  %>
 
-					<tr class="resultlinks"><td>
+					<tr><td class="resultlinks">
 						<a href=<%="details/#{moviez["imdbID"]}" %> > <%= moviez["Title"] %></a></td>
-						<td>(<%= moviez["Year"] %>)
+						<td class="resultdate">(<%= moviez["Year"] %>)
 					</td></tr>
 
 				<% end %>
@@ -19,6 +19,10 @@
 		
 		</table>
 	
+	</div>
+
+	<div class="row">
+		<a href="/">New Search</a>
 	</div>
 
 </div>

@@ -10,35 +10,58 @@
 	font-family: 'Astloch', cursive;
 	font-weight: bold;
 	font-size: 70px;
+	border-bottom-style: none;
+}
+
+.bottombanner {
+	min-height: 203px;
 }
 
 .resultlinks {
 	font-family: 'Fondamento', cursive;
-	font-size: 50px;
+	font-size: 35px;
 	text-align: center;
 	font-weight: bold;
 	color: #0000FF;
+	z-index: 2;
+	text-shadow: 2px 2px #000000;
+}
+
+#ModernFamilyPoster { 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 35%;
+}
+
+.resultdate {
+	font-family: 'Fondamento', cursive;
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	color: #0000FF;
+	z-index: 2;
 }
 
 .results {
 	background-image: url(http://puckerclust.files.wordpress.com/2011/02/the-eye-of-sauron.jpg);
 	background-position: center;
-	background-size: fill;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: black;
 	min-width: 100%;
 	min-height: 100%;
+	z-index: 0;
 }
 
 .entrysite {
 	text-align: center;
 	font-size: 100px;
+	font-family: 'Monofett', cursive;
+	text-shadow: 2px 2px #FFFF00;
 }
 
 .inputbox {
 	position: relative;
-	left: 35%;
 }
 
 .inputcol {
